@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: Noto Kufi Arabic;
+    src: url(../../assets/fonts/NotoKufiArabic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: FF Shamel Family;
+    src: url(../../assets/fonts/ffShamel/shamel/s.ttf);
+}
+
+* 
+{
+    margin: 0;
+    padding: 0;
+}

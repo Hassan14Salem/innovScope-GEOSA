@@ -1,0 +1,55 @@
+.loginBg
+{
+    background:linear-gradient(212.38deg, rgb(0 0 0 / 40%) 100%, rgb(37 24 24 / 35%) 100%),
+    url(../../assets/Images/Home/header-bg.png);
+    min-height: 100vh;
+}
+.seeArt
+{
+    position: relative;
+    border-bottom-left-radius: 20px ;
+}
+.seeArt img{
+    
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px ;
+}
+.logoLayer
+{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:  linear-gradient(212.38deg, rgb(0 57 128 / 70%) 100%, rgb(0 152 157 / 57%) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 20px ;
+
+}
+.brdrRad
+{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.rememberMe
+{
+    color: #686B6E;
+}
+.btn-submit
+{
+    background-color: #002554;
+    color: #fff;
+}
+.inputLogin
+{
+    width: 90% !important;
+  
+}
+/* .test
+{
+  margin-right: auto ;
+  transform: translate(-50,-50);
+} */

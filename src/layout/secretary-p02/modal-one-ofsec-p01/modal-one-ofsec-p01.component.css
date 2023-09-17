@@ -1,0 +1,133 @@
+.loremWay {
+    position: absolute;
+    top: 228px;
+    left: 120px;
+    border-radius: 2px;
+    border-bottom: 3px solid rgba(80, 80, 80, 0.10);
+    background: #FFF;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.25);
+    padding: 52px 37px;
+}
+
+.xContainer {
+    position: relative;
+}
+
+.loremWay h2 {
+    font-family: Noto Kufi Arabic;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right;
+
+}
+
+.loremWay p {
+    font-family: Noto Kufi Arabic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 48px;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #111;
+}
+
+.loremWay h3 {
+    color: #000;
+    text-align: right;
+    font-family: Noto Kufi Arabic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.loremWay h4 {
+    font-family: Noto Kufi Arabic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: right;
+    font-style: normal;
+    color: #111;
+
+
+
+
+}
+
+.loremWayBoxActive {
+    width: 524px;
+    height: 123px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #A9CFFF;
+    background: rgba(181, 214, 255, 0.20);
+}
+
+.loremWayBox {
+    width: 524px;
+    height: 123px;
+    flex-shrink: 0;
+    margin-left: 450px;
+}
+
+.buttons {
+    display: flex;
+
+    flex-direction: row-reverse;
+}
+
+.nextButton {
+    width: 192px;
+    height: 52px;
+    flex-shrink: 0;
+    background-color: #002554;
+    color: white;
+
+    text-align: center;
+    font-family: FF Shamel Family;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.closeButton {
+    width: 120px;
+    height: 52px;
+    flex-shrink: 0;
+    background-color: white;
+    margin-left: 20px;
+    color: #002554;
+    border: 1px solid #002554;
+    text-align: center;
+    font-family: FF Shamel Family;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.checkedActive {
+    position: relative;
+}
+
+.checked {
+    /* display: none ; */
+    position: absolute;
+    right: 96%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #002554;
+    color: white;
+}

@@ -1,0 +1,51 @@
+.spanTools
+{
+    display: flex;
+width: 34px;
+height: 34px;
+padding: 10px;
+align-items: center;
+justify-content: center;
+gap: 10px;
+flex-shrink: 0;
+
+border-radius: 50%;
+background: #ECECEC;
+}
+.profilePic
+{
+    width: 50x;
+    height: 50x;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.naav
+{
+    position: absolute ;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+
+/*Right Navbar*/
+
+.rightNavbar
+{
+    background-color: #002554;
+  
+}
+.rightNavbar button
+{
+    width: 69%;
+    margin-top: 50px;
+    padding: 5px 0px 5px 0px;
+    gap: 18px;
+    background: linear-gradient(0deg, #083369, #083369),
+    linear-gradient(0deg, #E9F3FF, #E9F3FF);
+    margin-right:auto ;
+
+}

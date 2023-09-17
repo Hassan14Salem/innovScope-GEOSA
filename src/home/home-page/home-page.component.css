@@ -1,0 +1,70 @@
+.homePage
+{
+    background-image:linear-gradient( 85.63deg, rgba(0, 37, 84, 0.96) 3.42%, rgba(0, 37, 84, 0.8) 39.64% ), url(../../assets/Images/Home/header-bg.png);
+    opacity: 0.9;
+    background-size: cover;    
+    min-height: 100vh;
+    padding: 24px ;
+    color: #fff;
+}
+.logo
+{
+    width: 200px;
+}
+.title
+{
+    margin-bottom: 0;
+    max-width: 45%;
+    line-height: 60px;
+    font-weight: 700;
+    font-size: 55px;
+}
+.loginbtn
+{
+    border-radius: 2rem !important;
+    padding: 12px 24px !important;
+    border: 1px solid #fff !important;
+    color: #fff;
+}
+.header
+{
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.category
+{
+    width: 225px;
+    height: 225px;
+    display: flex;
+    padding: 15px;
+    align-items: flex-end;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 4.5rem !important;
+}
+.category1
+{
+    background-image:
+    linear-gradient( 180deg, rgba(0, 37, 84, 0.2625) 0%, rgba(0, 48, 93, 0.75) 100% ),
+    url(../../assets/Images/Home/category2.png);
+    cursor: pointer;
+    
+
+}
+.category2
+{
+    background-image:
+    linear-gradient( 180deg, rgba(0, 37, 84, 0.2625) 0%, rgba(0, 48, 93, 0.75) 100% ), 
+    url(../../assets/Images/Home/category1.png);
+
+}
+.category3
+{
+    background-image:
+    linear-gradient( 180deg, rgba(0, 37, 84, 0.2625) 0%, rgba(0, 48, 93, 0.75) 100% ),
+    url(../../assets/Images/Home/category3.png);
+
+}

@@ -1,0 +1,42 @@
+.dote
+{
+    width: 4px;
+height: 4px;
+flex-shrink: 0;
+border-radius: 50%;
+background-color: black;
+font-weight: bold;
+}
+.person
+{
+    color: #000;
+text-align: right;
+font-family: Noto Kufi Arabic;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.date
+{
+    color: #3D3D3D;
+text-align: right;
+font-family: Noto Kufi Arabic;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.secretaryMessage
+{
+    border-radius: 0px 30px 40px 40px;
+background: #EFF7FF;
+margin-top: 10px ;
+
+}
+.managerOfsecMessage
+{
+    border-radius: 0px 30px 40px 40px;
+background: #F4F4F4;
+margin-top: 10px ;
+}

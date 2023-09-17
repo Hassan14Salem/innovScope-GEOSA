@@ -1,0 +1,97 @@
+.date
+{
+    position: absolute;
+    bottom: 80%;
+    left:100%;
+    transform: translate(-50%,-50%);
+    display: inline-flex;
+padding: 6px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 2px;
+background: #EBEBEB;
+
+}
+.time
+{
+    display: inline-flex;
+padding: 6px;
+align-items: flex-start;
+gap: 10px;
+    color: #414141 !important;
+text-align: center;
+font-family: Noto Kufi Arabic ;
+font-size: 14px !important; 
+font-style: normal;
+font-weight: 400 !important;
+line-height: normal;
+border-radius: 2px;
+}
+.layer::after
+{
+    content: "";
+    position: absolute;
+    right: -5px;
+    top: 40%;
+    background-color: #E6F3FF;
+    transform: translate(-50%,50%);
+    transform: rotate(45deg);
+    width: 10px;
+    height: 10px;
+
+
+}
+.bgOflayer
+{
+    background: #E6F3FF;
+}
+.sending
+{
+    color: #3574B2;
+text-align: right;
+font-family: Noto Kufi Arabic;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.sendingII
+{
+    color: rgba(0, 0, 0, 0.70);
+text-align: right;
+font-family: Noto Kufi Arabic;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px; /* 107.143% */
+}
+.headings
+{
+    display: flex;
+width: 149px;
+height: 28px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+
+color: #000;
+text-align: right;
+font-family: Noto Kufi Arabic;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.headingBranch
+{
+    color: #004D71;
+text-align: right;
+font-family: Noto Kufi Arabic;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+
+}
